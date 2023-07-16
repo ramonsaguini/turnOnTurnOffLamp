@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    border-radius:  80px;
+    padding: 5px;
+    text-align: center;
+}
+button {
+    width: 100px;
+    border-radius: 3px;
+    background-color: rgb(245, 245, 245);
+    padding: auto;
+}
+button:hover {
+    width: 100px;
+    border-radius: 3px;
+    background-color: rgb(178, 213, 219);
+    padding: auto;
+}
+h3{
+    color: rgb(240, 224, 0);
+    border: 2px solid black;
+    background-color: red;
+    font-size: 20px;
+}
