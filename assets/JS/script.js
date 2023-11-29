@@ -9,23 +9,23 @@ function isLampBroken() {
 
 function turnLampOn() {
     if (!isLampBroken()) {
-        lamp.src = '../assets/img/lampOn.jpg';
+        lamp.src = './assets/img/lampOn.jpg';
     }
 }
 
 function turnLampOff() {
     if (!isLampBroken()) {
-        lamp.src = '../assets/img/lampOff.jpg';
+        lamp.src = './assets/img/lampOff.jpg';
     }
 }
 
 function lampBroken() {
-    lamp.src = '../assets/img/lampbroken.jpg';
+    lamp.src = './assets/img/lampbroken.jpg';
 }
 
 function fixIt() {
     if (!lampBroken()) {
-        lamp.src = '../assets/img/lampOff.jpg'
+        lamp.src = './assets/img/lampOff.jpg'
     }
 
 }
